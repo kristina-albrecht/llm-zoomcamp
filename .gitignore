@@ -2,3 +2,7 @@
 __pycache__/
 .venv
 .envrc
+.idea/llm-zoomcamp.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
