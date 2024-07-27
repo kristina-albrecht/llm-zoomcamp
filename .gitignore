@@ -2,7 +2,9 @@
 __pycache__/
 .venv
 .envrc
-.idea/llm-zoomcamp.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
+
+# Default ignored files
+/shelf/
+/workspace.xml
+.idea/*
+.idea/workspace.xml
