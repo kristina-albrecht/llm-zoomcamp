@@ -1,16 +1,18 @@
 # Projects 
 
-Video: https://www.loom.com/share/8f99d25893de4fb8aaa95c0395c740b6
+* Video: https://www.loom.com/share/8f99d25893de4fb8aaa95c0395c740b6
+* Office hours: https://www.youtube.com/watch?v=pA9S1mTqAwU
+
+In order to receive a certificate of completion for the course, you need
+to deliver a project. There are two attempts for that.
 
 [Submit your project here](cohorts/2024/project.md)
+
 
 ## Objective
 
 The goal of this project is to apply everything we have learned
 in this course to build an end-to-end RAG application.
-
-In order to receive a certificate of completion for the course, you need
-to deliver a project. There are two attempts for that.
 
 
 ## Problem statement
@@ -19,12 +21,29 @@ For the project, we ask you to build an end-to-end RAG project.
 
 For that, you need:
 
-* Select a dataset that you're interested in (see [Datasets](#datasets))
+* Select a dataset that you're interested in (see [Datasets](#datasets) for examples and ideas)
 * Ingest the data into a knowledge base
 * Implement the RAG flow: query the knowledge base, build the prompt, send the promt to an LLM
 * Evaluate the performance of your RAG flow
-* Create the interface for the application
+* Create an interface for the application
 * Collect user feedback and monitor your application
+
+
+## Project Documentation
+
+Your project rises or falls with its documentation. Hence, here are some general recommendations:
+
+* **Write for a Broader Audience 📝**: Assume the reader has no prior knowledge of the course materials. This way, your documentation will be accessible not only to evaluators but also to anyone interested in your project.
+* **Include Evaluation Criteria 🎯**: Make it easier for evaluators to assess your work by clearly mentioning each criterion in your README. Include relevant screenshots to visually support your points.
+* **Think of Future Opportunities 🚀**: Imagine that potential hiring managers will look at your projects. Make it straightforward for them to understand what the project is about and what you contributed. Highlight key features and your role in the project.
+* **Be Detailed and Comprehensive 📋**: Include as much detail as possible in the README file. Explain the setup, the functionality, and the workflow of your project. Tools like ChatGPT or other LLMs can assist you in expanding and refining your documentation.
+* **Provide Clear Setup Instructions ⚙️**: Include step-by-step instructions on how to set up and run your project locally. Make sure to cover dependencies, configurations, and any other requirements needed to get your project up and running.
+* **Use Visuals and Examples 🖼️**: Wherever possible, include diagrams, screenshots, or GIFs to illustrate key points. Use examples to show how to use your project, demonstrate common use cases, and provide sample inputs and expected outputs.
+* **Organize with Sub-Files 🗂️**: If your documentation becomes lengthy, consider splitting it into sub-files and linking them in your README. This keeps the main README clean and neat while providing additional detailed information in separate files (e.g., `setup.md`, `usage.md`, `contributing.md`).
+* **Keep It Updated 🔄**: As your project evolves, make sure your documentation reflects any changes or updates. Outdated documentation can confuse readers and diminish the credibility of your project.
+
+Remember, clear and comprehensive documentation not only helps others but is also a valuable reference for yourself in the future.
+
 
 ## Technologies
 
@@ -45,9 +64,7 @@ If you're not certain about some tools, ask in Slack.
 
 * It's better to create a separate GitHub repository for your project
 * Give your project a meaningful title, e.g. "DataTalksClub Zoomcamp Q&A system" or "Nutrition Facts Chat"
-* Make it easier for the evaluators to evaluate each of the criteria by mentioning them in your README and including screenshots
-* Imagine that potential hiring managers will also look at your projects. Make it easier for them to understand what the project is about and what did you do there
-* In general, include as many details as possible in the README file. ChatGPT or other LLMs can assist you with this
+
 
 ## Peer reviewing
 
@@ -56,6 +73,16 @@ If you're not certain about some tools, ask in Slack.
 > * To get points for your project, you need to evaluate 3 projects of your peers
 > * You get 3 extra points for each evaluation
 
+### Review Tips
+
+* The reviewer is given a public GitHut repo link and a `commit-hash`
+   * to see the code state of the repo at the provided commit hash, use the following URL:
+   * `https://github.com/{username}/{repo-name}/tree/{commit-hash}`
+* It's recommended to clone the repository for the review. To clone the project at the commit hash:
+  ```bash
+  git clone https://github.com/{username}/{repo-name}.git
+  git reset --hard {commit-hash}
+  ```
 
 ## Evaluation Criteria
 
@@ -99,10 +126,10 @@ If you're not certain about some tools, ask in Slack.
     * [ ] Hybrid search: combining both text and vector search (at least evaluating it) (1 point)
     * [ ] Document re-ranking (1 point)
     * [ ] User query rewriting (1 point)
-    * [ ] More TBA 
 * Bonus points (not covered in the course)
     * [ ] Deployment to the cloud (2 points)
-    * [ ] More TBA
+    * [ ] Up to 3 extra bonus points if you want to award for something extra (write in feedback for what)
+
 
 ## Project ideas
 
@@ -149,3 +176,5 @@ Plagiarism in any form is not allowed. Examples of plagiarism:
 * Re-using your project from the previous iterations of the course
 
 Violating any of this will result in 0 points for this project.
+
+Re-using some parts of the code from the course is allowed.
